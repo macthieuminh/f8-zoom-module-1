@@ -34,11 +34,81 @@
     crossorigin="anonymous"
     referrerpolicy="no-referrer" />
 
-      <script type="module" crossorigin src="/f8-zoom-module-1/assets/main-DWdGHEyM.js"></script>
-      <link rel="stylesheet" crossorigin href="/f8-zoom-module-1/assets/main-Dh9DwiUh.css">
+      <script type="module" crossorigin src="/f8-zoom-module-1/assets/main-DdPbD3Ab.js"></script>
+      <link rel="stylesheet" crossorigin href="/f8-zoom-module-1/assets/main-BqtoyRUk.css">
     </head>
     <body>
         <div class="wrapper">
+            <!-- Sidebar -->
+            <section class="sidebar__wrapper">
+    <div class="overlay"></div>
+    <div class="sidebar">
+        <div class="sidebar__zone">
+            <label class="siderbar__label"
+                ><a class="close-btn">×</a>
+                <input
+                    type="checkbox"
+                    name="sidebar__checkbox"
+                    id="sidebar__checkbox"
+                    hidden />
+            </label>
+        </div>
+        <div class="logo__wrapper">
+            <img class="logo" src="/f8-zoom-module-1/img/logo.svg" alt="Law Firm Logo" />
+            <h3 class="h3">Justice</h3>
+            <h4 class="h4">Law Firm</h4>
+        </div>
+        <nav class="nav">
+            <div class="nav__list">
+                <div class="nav__item">
+                    <a class="active" href="../index.html">Home</a>
+                </div>
+                <div class="nav__item">
+                    <a href="../about.html"
+                        >About
+                        <i class="fa-solid fa-angle-down"></i>
+                    </a>
+                </div>
+                <div class="nav__item">
+                    <a class="" href="../practice.html"
+                        >Practice Areas <i class="fa-solid fa-angle-down"></i
+                    ></a>
+                    <ul class="sub__nav">
+                        <li><a>Divorce</a></li>
+                        <li>
+                            <a>Personal Injury <i class="fa-solid fa-angle-right"></i></a>
+                        </li>
+                        <li>
+                            <a>Employment <i class="fa-solid fa-angle-right"></i></a>
+                        </li>
+                        <li>
+                            <a>Immigration <i class="fa-solid fa-angle-right"></i></a>
+                        </li>
+                        <li>
+                            <a>Family <i class="fa-solid fa-angle-right"></i></a>
+                        </li>
+                        <li>
+                            <a>Property <i class="fa-solid fa-angle-right"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav__item">
+                    <a href="../blog.html"
+                        >Blog
+                        <i class="fa-solid fa-angle-down"></i>
+                    </a>
+                </div>
+                <div class="nav__item">
+                    <a href="../contact.html"
+                        >Contact
+                        <i class="fa-solid fa-angle-down"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</section>
+
             <!-- Header -->
             <header class="header">
     <div class="container">
@@ -49,35 +119,67 @@
                     <h3 class="h3">Justice</h3>
                     <h4 class="h4">Law Firm</h4>
                 </div>
-                <label class="sub-nav">
-                    <i class="fa-solid fa-bars fa-2xl"></i>
-                    <input hidden class="" type="checkbox" name="" id=""
-                /></label>
+                <a href="#!" class="bars__btn">
+                    <label for="sidebar__checkbox">
+                        <i class="fa-solid fa-bars fa-2xl bars__btn"></i>
+                        <input id="sidebar__checkbox" type="checkbox" name="" hidden />
+                    </label>
+                </a>
             </div>
             <div class="col col-7 col-md-1">
                 <nav class="nav">
                     <div class="nav__list">
                         <div class="nav__item">
-                            <a href="/public/">Home</a>
+                            <a class="active" href="../index.html">Home</a>
                         </div>
                         <div class="nav__item">
-                            <a href=""
+                            <a href="../about.html"
                                 >About
                                 <i class="fa-solid fa-angle-down"></i>
                             </a>
                         </div>
                         <div class="nav__item">
-                            <a href="">Practice Areas</a>
+                            <a class="" href="../practice.html"
+                                >Practice Areas <i class="fa-solid fa-angle-down"></i
+                            ></a>
+                            <ul class="sub__nav">
+                                <li><a>Divorce</a></li>
+                                <li>
+                                    <a
+                                        >Personal Injury
+                                        <i class="fa-solid fa-angle-right"></i
+                                    ></a>
+                                </li>
+                                <li>
+                                    <a
+                                        >Employment <i class="fa-solid fa-angle-right"></i
+                                    ></a>
+                                </li>
+                                <li>
+                                    <a
+                                        >Immigration
+                                        <i class="fa-solid fa-angle-right"></i
+                                    ></a>
+                                </li>
+                                <li>
+                                    <a>Family <i class="fa-solid fa-angle-right"></i></a>
+                                </li>
+                                <li>
+                                    <a
+                                        >Property <i class="fa-solid fa-angle-right"></i
+                                    ></a>
+                                </li>
+                            </ul>
                         </div>
                         <div class="nav__item">
-                            <a href=""
-                                >Attorneys
+                            <a href="../blog.html"
+                                >Blog
                                 <i class="fa-solid fa-angle-down"></i>
                             </a>
                         </div>
                         <div class="nav__item">
-                            <a href=""
-                                >Page
+                            <a href="../contact.html"
+                                >Contact
                                 <i class="fa-solid fa-angle-down"></i>
                             </a>
                         </div>
@@ -85,7 +187,7 @@
                 </nav>
             </div>
             <div class="col col-2 col-md-5">
-                <div class="contact">
+                <div class="phone">
                     <a href="tel:+84 987896731"
                         >Call: <strong>(000) 123 456 789</strong></a
                     >
@@ -120,7 +222,7 @@
     </div>
 </header>
 
-            <!-- Sidebar -->
+
             <main>
                 <!-- About Us -->
                 <section class="about__us">
@@ -171,7 +273,7 @@
                 </div>
             </div>
         </div>
-        <div class="row row-cols-3 row-cols-md-1 g-4">
+        <div class="row row-cols-3 row-cols-md-1 g-3">
             <div class="col">
                 <div class="item">
                     <img
@@ -247,7 +349,7 @@
                 <!-- Features 1 -->
 <section class="features">
     <div class="container">
-        <div class="row row-cols-2 row-cols-md-1 g-5">
+        <div class="row row-cols-2 row-cols-md-1 g-3">
             <div class="col order-2">
                 <div class="hero__wrapper">
                     <img
@@ -279,7 +381,7 @@
 <!-- Features 2 -->
 <section class="features features-2">
     <div class="container">
-        <div class="row row-cols-2 row-cols-md-1 g-5">
+        <div class="row row-cols-2 row-cols-md-1 g-3">
             <div class="col">
                 <div class="features__wrapper">
                     <p class="sub_heading">#Features</p>
@@ -323,7 +425,7 @@
                 </div>
             </div>
         </div>
-        <div class="row row-cols-3 row-cols-md-1 g-4">
+        <div class="row row-cols-3 row-cols-md-1 g-3">
             <div class="col">
                 <div class="item">
                     <div class="img__wrapper">
@@ -442,29 +544,25 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="row row-cols-4 row-cols-md-1 g-5 g-md-5">
-                    <div class="col">
-                        <div class="awards__item">
-                            <img src="./img/pmg-award-1.png" alt="Awards Logo" />
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="awards__item">
-                            <img src="./img/pmg-award-2.png" alt="Awards Logo" />
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="awards__item">
-                            <img src="./img/pmg-award-3.png" alt="Awards Logo" />
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="awards__item">
-                            <img src="./img/pmg-award-4.png" alt="Awards Logo" />
-                        </div>
-                    </div>
+        <div class="row row-cols-md-1 g-3">
+            <div class="col">
+                <div class="awards__item">
+                    <img src="./img/pmg-award-1.png" alt="Awards Logo" />
+                </div>
+            </div>
+            <div class="col">
+                <div class="awards__item">
+                    <img src="./img/pmg-award-2.png" alt="Awards Logo" />
+                </div>
+            </div>
+            <div class="col">
+                <div class="awards__item">
+                    <img src="./img/pmg-award-3.png" alt="Awards Logo" />
+                </div>
+            </div>
+            <div class="col">
+                <div class="awards__item">
+                    <img src="./img/pmg-award-4.png" alt="Awards Logo" />
                 </div>
             </div>
         </div>
@@ -474,7 +572,7 @@
                 <!-- Testimonial -->
                 <section class="testimonial">
     <div class="container">
-        <div class="row row-cols-2 g-5 row-cols-md-1">
+        <div class="row row-cols-2 g-3 row-cols-md-1">
             <div class="col">
                 <div class="testimonial__head">
                     <p class="sub_heading">#Testimonial</p>
@@ -492,7 +590,7 @@
                 </div>
             </div>
         </div>
-        <div class="row row-cols-3 row-cols-md-1 g-5">
+        <div class="row row-cols-3 row-cols-md-1 g-3">
             <div class="col">
                 <div class="comment__item">
                     <div class="user__avtar">
@@ -665,7 +763,7 @@
                 <a href="#!" class="btn btn--blog">Browse All</a>
             </div>
         </div>
-        <div class="row row-cols-3 row-cols-md-1 row-cols-sm-1 g-5">
+        <div class="row row-cols-3 row-cols-md-1 row-cols-sm-1 g-3">
             <div class="col">
                 <div class="blog__item">
                     <div class="blog__img-wrapper">
@@ -763,7 +861,7 @@
             <!-- Footer -->
             <footer class="footer">
     <div class="container">
-        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4 g-5 g-sm-5">
+        <div class="row row-cols-4 row-cols-sm-1 row-cols-md-2 g-3">
             <div class="col">
                 <h3 class="h3">Justice</h3>
                 <ul>
@@ -804,7 +902,7 @@
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
-        <div class="row row-cols-2 row-cols-md-2 row-cols-sm-1 g-sm-3">
+        <div class="row row-cols-2 row-cols-md-1 row-cols-sm-1 g-3">
             <div class="col">
                 <div class="logo__wrapper">
                     <img class="logo" src="./img/logo-white.svg" alt="Law Firm Logo" />
